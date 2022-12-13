@@ -1,0 +1,54 @@
+.subHeader {
+    height: 30px;
+    width: 100%;
+    background-color: #118844;
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.subHeader h2 {
+    padding-top: 0.5%;
+}
+
+.headerForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.headerForm input {
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    margin-left: 2px;
+}
+
+.headerForm input:focus{
+    outline-style: none;
+    box-shadow: none;
+    border-color: #ccc;
+    border-color: transparent;
+}
+
+.headerForm input::placeholder{
+    text-align: center;
+}
+
+
+.headerForm button {
+    width: 140px;
+    height: 20px;
+    background-color: #118844;
+    color: #fff;    
+    border-radius: 2px;
+    margin-left: 3px;
+    border-color: transparent;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.headerForm button:hover {   
+    background-color: #11aa44;
+    cursor: pointer;
+}

@@ -1,0 +1,12 @@
+#Header {
+    height: 45px;
+    width: 100%;
+    background-color: #118844;
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+}
+
+#Header h1 {
+    padding-top: 0.5%;
+}

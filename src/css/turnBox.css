@@ -1,0 +1,93 @@
+.currentTurn {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.currentTurn h3 {
+    font-size: 30px;
+    margin-top: 2px;
+}
+
+.currentTurn label {
+    font-size: 25px;
+}
+
+.nextTurnButton {
+    width: 100%;
+    height: 20px;
+    background-color: #118844;
+    color: #fff;
+    border-color: transparent;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.nextTurnButton:hover {   
+    background-color: #11aa44;
+    cursor: pointer;
+}
+
+.conditionBox {
+    background-color: #111;
+    border-radius: 5px;
+    margin: 2%;
+    height: 400px; width: 96%;
+    display: flex;
+    flex-direction: column;
+}
+
+.conditionBox h3 {
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px 5px 0px 0px;
+    background-color: #000;
+}
+
+#conditionForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conditionBox .addContition {
+    background-color: #000;
+    border-radius: 5px;
+    border: solid #aaa 1px;
+    height: 30px; width: 30px;
+    font-size: 25px;
+    color: #aaa;
+    margin: 15px;
+}
+
+.conditionBox .addContition:hover {
+    border: solid #fff 1px;
+    color: #fff;
+}
+
+.inputCondition {
+    border-radius: 5px;
+    background-color: #000;
+    border: solid #aaa 1px;
+    color: #aaa;
+    height: 30px;
+    width: 120px;
+    margin: 10px;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.conditionList {
+    background-color: #000;
+    width: 100%; height: 100%;
+    border-radius: 0px 0px 5px 5px;
+    overflow: scroll;
+}
+
+.conditionList li {
+    display: flex;
+    background-color: #118844;
+    margin: 10px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}

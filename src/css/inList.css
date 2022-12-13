@@ -1,0 +1,50 @@
+#InitiativeList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 450px;
+    overflow-y: scroll;
+}
+
+.InitiativeItem {
+    display: flex;
+    align-items: center;
+
+    flex-direction: row;
+    height: 30px;
+    width: 97%;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.acting_true {
+    background-color: #118844;
+}
+
+.acting_false {
+    background-color: #666;
+}
+
+.InitiativeItem p {
+    margin: 5px;
+}
+
+.InitiativeItem input {
+    width: 70px;
+}
+
+.InitiativeItem button {
+    width: 30px;
+    height: 30px;
+    background-color: #881122;
+    color: #fff;    
+    border-radius: 5px 0px 0px 5px;
+    border-color: transparent;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.InitiativeItem button:hover {
+    cursor: pointer;
+    background-color: #bb1122;
+}
