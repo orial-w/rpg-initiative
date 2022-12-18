@@ -3,7 +3,6 @@ import { useState } from "react";
 import newItem from './func/newItem.js'
 import  InitList from "./initList.jsx";
 
-
 export default function Initiative(){
     const [inputName, setInputName] = useState("");
     const [inputRoll, setInputRoll] = useState("");
