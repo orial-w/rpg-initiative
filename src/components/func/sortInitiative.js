@@ -7,11 +7,15 @@ export default function sortInitiative(initiative){
         barrelRoll.push(item.roll);
     }
 
-    barrelRoll.sort((a, b)=>a - b);
+    var getSortType = JSON.parse(localStorage.getItem('dndInit'));
+
+    if (getSortType == 'd20') {barrelRoll = barrelRoll.sort((a, b)=>a - b); }
+    else {barrelRoll = barrelRoll.sort((a, b)=>b - a);}
+
 
     for (var index = 0; index <= barrelRoll.length; index++){
         var counter = 0;
-        for (let item of oldInitiative){
+        for (var item of oldInitiative){
             if (item.roll === barrelRoll[index]){
                 newInitiative.push(item);
                 oldInitiative.splice(counter, 1);

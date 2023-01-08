@@ -1,4 +1,8 @@
 >   The icons used on this project are not mine, but they are free to use
-    anyway here i gonna credit all icons i used here to thanks the real owners of it
+    and easily found in flaticon.com.
+    Anyway here i gonna credit all icons i used, to thanks the real owners of it.
+    If your icon was used and you want to remove it from the project just create a issue
+    on github and i gonna do so.
 
-Copy icon: Uxwing
+Copy icon: Shin_icons
+d20 and d10 icons: UICONS

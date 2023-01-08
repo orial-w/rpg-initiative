@@ -3,7 +3,7 @@ import { useState } from "react";
 import newItem from './func/newItem.js'
 import  InitList from "./initList.jsx";
 
-export default function Initiative(){
+export default function Initiative(array){
     const [inputName, setInputName] = useState("");
     const [inputRoll, setInputRoll] = useState("");
 
@@ -27,7 +27,7 @@ export default function Initiative(){
             }}>Add</button>
 
             </div>
-            <InitList/>
+            <InitList sync={array.sync}/>
         </div>
     )
 }

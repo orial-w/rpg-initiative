@@ -1,0 +1,20 @@
+#Footer {
+    position: fixed;
+    height: 1vh;
+    text-align: end;
+    width: 20vh;
+    font-size: 2vh;
+    color: #fff;
+    text-align: start;
+    left: 1vh;
+    bottom: 10vh;
+
+}
+
+#Footer p {
+    padding: 1vh;
+}
+
+#Footer a {
+    color: #118844;
+}

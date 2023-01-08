@@ -18,7 +18,7 @@ export default function CopyToClip(){
     }
 
     return (
-        <button id="copyToClipBoard" onClick={()=>copyIt()}>
+        <button id="copyToClipBoard" onClick={async ()=> await copyIt()}>
             <img src={copyicon}/>
         </button>
     )

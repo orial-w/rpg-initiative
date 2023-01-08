@@ -34,6 +34,7 @@ export default function ConditionBox(req){
             return cond.name;
         }
     }
+    
     return (
         <div className='conditionBox'>
             <h3>CONDITIONS</h3>

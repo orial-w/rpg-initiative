@@ -1,5 +1,7 @@
 import React from "react";
 import removeItem from './func/removeItem.js'
+import sortInitiative from "./func/sortInitiative.js";
+
 import { useState } from "react";
 
 export default function InitList(){

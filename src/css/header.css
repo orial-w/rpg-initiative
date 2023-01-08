@@ -1,5 +1,5 @@
 #Header {
-    height: 45px;
+    height: 30px;
     width: 100%;
     background-color: #118844;
     font-size: 13px;
@@ -8,5 +8,6 @@
 }
 
 #Header h1 {
-    padding-top: 7px;
+    font-size: 20px;
+    padding-top: 4px;
 }
