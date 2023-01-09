@@ -9,9 +9,8 @@ export default function sortInitiative(initiative){
 
     var getSortType = JSON.parse(localStorage.getItem('dndInit'));
 
-    if (getSortType == 'd20') {barrelRoll = barrelRoll.sort((a, b)=>a - b); }
+    if (getSortType == 'd10') {barrelRoll = barrelRoll.sort((a, b)=>a - b); }
     else {barrelRoll = barrelRoll.sort((a, b)=>b - a);}
-
 
     for (var index = 0; index <= barrelRoll.length; index++){
         var counter = 0;

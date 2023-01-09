@@ -19,7 +19,6 @@ export default function SortTypeButton (){
     }
     
     function setInitType(getLS){
-        sortLocalStorage();
         if (getLS == 'd20'){
             setDiceIcon(d10_icon);
             localStorage.setItem('dndInit', JSON.stringify('d10'));
@@ -28,6 +27,7 @@ export default function SortTypeButton (){
             localStorage.setItem('dndInit', JSON.stringify('d20'));
         }
 
+        sortLocalStorage();
         window.location.reload();
     }
 
