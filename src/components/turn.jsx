@@ -13,10 +13,10 @@ export default function Turn(array){
                 return item;
             }
         }
-        return 'Nobody';
+        return {name: 'Nobody'};
     }
 
-    const [ currentTurn, setCurrentTurn ] = useState('Nobody');
+    const [ currentTurn, setCurrentTurn ] = useState((getTurn()).name);
     const [ actingCharacter, setActingCharacter ] = useState({});
 
     return (
