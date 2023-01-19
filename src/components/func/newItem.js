@@ -1,6 +1,8 @@
 import sortInitiative from "./sortInitiative.js";
 
 export default function newItem (characterName, roll){
+    if (characterName == '' || roll == '') return alert('There is something missing. Check again.');
+
     let getLocalStorage = JSON.parse(localStorage.getItem('initiative'));
 
     const itemID = Math.random();

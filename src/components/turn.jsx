@@ -34,6 +34,7 @@ export default function Turn(array){
 
                 const character = getTurn();
                 setCurrentTurn(character.name);
+                document.title = character.name+"'s turn."
                 setActingCharacter(character);
                 array.test[1](Math.random);
                 manageTurn(character);
