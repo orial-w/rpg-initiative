@@ -1,5 +1,6 @@
 .Box {
     height: 550px;
+    min-width: 150px;
     width: 550px;
     background-color: #292929;
     border-radius: 5px;

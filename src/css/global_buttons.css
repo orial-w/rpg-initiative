@@ -8,6 +8,12 @@
     top: 9vh;
 }
 
+@media only screen and (max-width: 600px){
+    #global_buttons {
+        left: 1vh;
+        top: 78vh;
+    }
+}
 
 .sortButton {
     background-color: #118844;

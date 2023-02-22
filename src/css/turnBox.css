@@ -48,14 +48,22 @@
     justify-content: center;
 }
 
+/*@media only screen and (max-width: 600px){
+    #conditionForm {
+        height: 120px;
+        flex-wrap: wrap;
+    }
+} */
+
 .conditionBox .addContition {
     background-color: #000;
     border-radius: 5px;
     border: solid #aaa 1px;
     height: 30px; width: 30px;
+    min-width: 30px;
     font-size: 25px;
     color: #aaa;
-    margin: 15px;
+    margin: clamp(2px, 5px, 10px);;
 }
 
 .conditionBox .addContition:hover {
@@ -70,7 +78,8 @@
     color: #aaa;
     height: 30px;
     width: 120px;
-    margin: 10px;
+    min-width: 60px;
+    margin: clamp(2px, 5px, 10px);
     text-align: center;
     font-family: 'Varela Round', sans-serif;
 }

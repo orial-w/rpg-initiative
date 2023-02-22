@@ -23,6 +23,7 @@
     font-family: 'Varela Round', sans-serif;
     text-align: center;
     margin-left: 2px;
+    min-width: 50px;
 }
 
 .headerForm input:focus{
