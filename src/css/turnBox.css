@@ -15,14 +15,14 @@
 .nextTurnButton {
     width: 100%;
     height: 20px;
-    background-color: #118844;
+    background-color: var(--main-color);
     color: #fff;
     border-color: transparent;
     font-family: 'Varela Round', sans-serif;
 }
 
 .nextTurnButton:hover {   
-    background-color: #007733;
+    background-color: var(--main-dark-color);
     cursor: pointer;
 }
 
@@ -47,13 +47,6 @@
     align-items: center;
     justify-content: center;
 }
-
-/*@media only screen and (max-width: 600px){
-    #conditionForm {
-        height: 120px;
-        flex-wrap: wrap;
-    }
-} */
 
 .conditionBox .addContition {
     background-color: #000;
@@ -93,7 +86,7 @@
 
 .conditionList li {
     display: flex;
-    background-color: #118844;
+    background-color: var(--main-color);
     margin: 10px;
     height: 40px;
     align-items: center;

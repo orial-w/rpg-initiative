@@ -6,3 +6,4 @@
 
 Copy icon: Shin_icons
 d20 and d10 icons: UICONS
+Brush: Freepik

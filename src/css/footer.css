@@ -16,5 +16,5 @@
 }
 
 #Footer a {
-    color: #118844;
+    color: var(--main-color);
 }

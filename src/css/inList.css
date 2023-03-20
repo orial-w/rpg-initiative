@@ -19,7 +19,7 @@
 }
 
 .acting_true {
-    background-color: #118844;
+    background-color: var(--main-color);;
 }
 
 .acting_false {
@@ -37,7 +37,7 @@
 .InitiativeItem button {
     width: 30px;
     height: 30px;
-    background-color: #881122;
+    background-color: #dd0011;
     color: #fff;    
     border-radius: 5px 0px 0px 5px;
     border-color: transparent;
@@ -46,5 +46,5 @@
 
 .InitiativeItem button:hover {
     cursor: pointer;
-    background-color: #bb1122;
+    background-color: #aa0000;
 }

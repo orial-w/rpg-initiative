@@ -7,7 +7,9 @@
 
 body {
     font-family: 'Varela Round', sans-serif;
-    background-color: #1a1a1a;
+    background-color: hwb(0 10% 90%);
+    --main-color: #118844;
+    --main-dark-color: #007733;
 }
 
 #Warper {

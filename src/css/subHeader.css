@@ -1,7 +1,7 @@
 .subHeader {
     height: 30px;
     width: 100%;
-    background-color: #118844;
+    background-color: var(--main-color);
     font-size: 13px;
     color: #fff;
     text-align: center;
@@ -41,7 +41,7 @@
 .headerForm button {
     width: 140px;
     height: 20px;
-    background-color: #118844;
+    background-color: var(--main-color);
     color: #fff;    
     border-radius: 2px;
     margin-left: 3px;
@@ -50,6 +50,6 @@
 }
 
 .headerForm button:hover {   
-    background-color: #007733;
+    background-color: var(--main-dark-color);
     cursor: pointer;
 }

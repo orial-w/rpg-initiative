@@ -5,11 +5,12 @@ export default function CopyToClip(){
     function copyIt(){
         let getLocalStorage = JSON.parse(localStorage.getItem('initiative'));
 
-        var textToCopy = '**INITIATIVE:**\n```';
+        var textToCopy = '**INITIATIVE:**\n```\n';
         var index = 0;
         getLocalStorage.map(item=>{
             index++;
             textToCopy += `${index}. (${item.roll}) ${item.name}\n`
+            return textToCopy;
         });
 
         textToCopy += '```'
@@ -18,8 +19,8 @@ export default function CopyToClip(){
     }
 
     return (
-        <button id="copyToClipBoard" onClick={async ()=> await copyIt()}>
-            <img src={copyicon}/>
+        <button id="copyToClipBoard" class="gbutton" onClick={async ()=> await copyIt()}>
+            <img src={copyicon} alt="copy icon"></img>
         </button>
     )
 }

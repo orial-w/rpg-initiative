@@ -19,7 +19,7 @@ export default function SortTypeButton (){
     }
     
     function setInitType(getLS){
-        if (getLS == 'd20'){
+        if (getLS === 'd20'){
             setDiceIcon(d10_icon);
             localStorage.setItem('dndInit', JSON.stringify('d10'));
         } else {
@@ -32,8 +32,8 @@ export default function SortTypeButton (){
     }
 
     return (
-        <button className="sortButton" onClick={()=>setInitType(getLS)}>
-            <img src={diceIcon}></img>
+        <button id="sortButton" className="gbutton" onClick={()=>setInitType(getLS)}>
+            <img src={diceIcon} alt="dice icon"></img>
         </button>
     )
 }
