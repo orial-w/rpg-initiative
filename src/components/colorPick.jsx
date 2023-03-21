@@ -9,11 +9,11 @@ export default function ColorPick() {
     function renderColorPalette() {
         const palette = {
             green: ['#118844', '#007733'],
-            purple: ['#4B2282', '#2B1172'],
             blue: ['#224499', '#113388'],
-            red: ['#d24411', '#c33300'],
+            purple: ['#6441a5', '#533094'],
+            red: ['#a40804', '#940500'],
             orange: ['#dd6d00', '#cc5c00'],
-            grey: ['#446', '#335']
+            black: ['#111', '#000']
         }
 
         var jsx = Object.getOwnPropertyNames(palette).map(color=>{
