@@ -9,7 +9,7 @@ export default function CopyToClip(){
         var index = 0;
         getLocalStorage.map(item=>{
             index++;
-            textToCopy += `${index}. (${item.roll}) ${item.name}\n`
+            textToCopy += `${index}. (${item.roll})\t${item.name}\n`
             return textToCopy;
         });
 

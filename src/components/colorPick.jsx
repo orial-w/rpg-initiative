@@ -11,9 +11,9 @@ export default function ColorPick() {
             green: ['#118844', '#007733'],
             blue: ['#224499', '#113388'],
             purple: ['#6441a5', '#533094'],
-            red: ['#a40804', '#940500'],
-            orange: ['#dd6d00', '#cc5c00'],
-            black: ['#111', '#000']
+            pink: ['#FB4570', '#dB2550'],
+            orange: ['#ff7300', '#cc5c00'],
+            red: ['#FF3131', '#dd1111']
         }
 
         var jsx = Object.getOwnPropertyNames(palette).map(color=>{
@@ -45,7 +45,7 @@ export default function ColorPick() {
             <Popup trigger={{
                     state: openPopup,
                     set: setOpenPopup
-                }} title={'Choose a color'} tam={[130, 650]}>
+                }} title={'CHOOSE A COLOR'} tam={[130, 650]}>
                     <div className="palette">
                         {renderColorPalette()}
                     </div>
